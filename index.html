@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birthday Surprise 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hearts"></div>
+<div id="confetti"></div>
+
+<!-- MEMORY GAME -->
+<div id="game" class="card">
+  <h1>🎓 College Memories 🎓</h1>
+  <p id="memoryText">Tap to unlock our memories 💙</p>
+
+  <div class="progress">
+    <div id="bar"></div>
+  </div>
+
+  <button onclick="nextMemory()">Tap Me ✨</button>
+</div>
+
+<!-- SURPRISE -->
+<div id="surprise" class="card hidden">
+  <h1>🎂 Happy Birthday <span id="name"></span> 🎂</h1>
+
+  <p class="wish">
+    From BSc IT last year to lifelong friendship 💙  
+    May your life always run without errors 🚀
+  </p>
+
+  <div class="slider">
+    <img id="slide" src="images/img1.jpg">
+  </div>
+
+  <h2>✨ Best Friend Forever ✨</h2>
+</div>
+
+<audio id="song" src="song.mp3"></audio>
+<script src="script.js"></script>
+</body>
+</html>
